@@ -1,0 +1,1569 @@
+{
+  "meta": {
+    "fuente": "Flores, Buono y Giorgini. Enfermedades de tomate: guía de consulta. Ediciones INTA, 2012.",
+    "advertencia": "Los campos 'guia' resumen la guía; los campos 'propuesta' y los filtros normalizados no vienen de la guía y requieren validación técnica. No incluye productos ni dosis.",
+    "paginas": "Numeración impresa de la guía, no del PDF."
+  },
+  "enfermedades": [
+    {
+      "id": "tizon_temprano",
+      "nombre": "Tizón temprano del tomate",
+      "agente_causal": "Alternaria solani",
+      "grupo": "Hongos",
+      "pagina_guia": 15,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Manchas circulares color café con anillos concéntricos oscuros y halo amarillo, en hojas inferiores e internas; en plantín, necrosis en el cuello que lo estrangula.",
+        "cuando": "Plantines (cuello) y plantas adultas (hojas bajas que avanzan a media y alta).",
+        "condiciones": "27–30 °C y alta humedad (días nublados con llovizna). Policíclica.",
+        "diseminacion": "Plantines infectados, semillas, viento, agua, herramientas; sobrevive en restos de cosecha y suelo."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿La mancha es circular con anillos concéntricos y está en hojas bajas/internas?",
+        "confundible_con": [
+          "mancha_gris",
+          "mancha_bacteriana",
+          "tizon_tardio",
+          "moho_hoja",
+          "chupadera"
+        ]
+      },
+      "notas": "El texto no describe el síntoma en tallo ni fruto (las fotos de la ficha sí muestran lesiones en ambos)."
+    },
+    {
+      "id": "mancha_gris",
+      "nombre": "Mancha gris del tomate",
+      "agente_causal": "Stemphylium solani",
+      "grupo": "Hongos",
+      "pagina_guia": 21,
+      "organos": [
+        "Tallo",
+        "Hoja"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Lesiones pequeñas castaño oscuro de borde desuniforme en hojas jóvenes y tallos; luego el centro se aclara y se desprende dejando la hoja perforada.",
+        "cuando": "Plantines y plantas adultas; primeros síntomas en hojas jóvenes.",
+        "condiciones": "25–28 °C y humedad relativa alta. Policíclica.",
+        "diseminacion": "Lluvias, viento y labores culturales; sobrevive en restos de cosecha y otras solanáceas."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿El centro de la mancha se aclara y se cae dejando agujeros en la hoja?",
+        "confundible_con": [
+          "tizon_temprano",
+          "mancha_bacteriana",
+          "tizon_tardio",
+          "moho_hoja"
+        ]
+      },
+      "notas": "Síntoma en tallo no descrito por separado."
+    },
+    {
+      "id": "fusarium",
+      "nombre": "Marchitez por Fusarium",
+      "agente_causal": "Fusarium oxysporum f. sp. lycopersici",
+      "grupo": "Hongos",
+      "pagina_guia": 27,
+      "organos": [
+        "Semilla",
+        "Raíz",
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "Cosecha",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Plantas verde claro y amarillamiento de hojas basales; oscurecimiento de tejidos internos en cuello, raíz principal y tallo; detienen crecimiento, estrés hídrico y mueren.",
+        "cuando": "Se manifiesta generalmente al inicio de la cosecha.",
+        "condiciones": "Suelo caliente y húmedo, suelos ácidos y arenosos, N y P bajos, K alto, días cortos y poca luz; heridas de raíz (labores, nematodes). Monocíclica.",
+        "diseminacion": "Semilla (larga distancia), restos vegetales y suelo."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "Al cortar el tallo/cuello: ¿hay oscurecimiento marcado del tejido interno?",
+        "confundible_con": [
+          "verticillium",
+          "marchitamiento_bacteriano"
+        ]
+      },
+      "notas": "La ficha lista 'cuello' como localización; el Cuadro II no tiene columna cuello (se cuenta dentro de Raíz)."
+    },
+    {
+      "id": "cenicilla",
+      "nombre": "Polvillo o cenicilla",
+      "agente_causal": "Oidium lycopersici y Oidium silicua",
+      "grupo": "Hongos",
+      "pagina_guia": 31,
+      "organos": [
+        "Tallo",
+        "Hoja"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Cálido y seco",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "O. lycopersici: manchas circulares blancas de aspecto polvoriento en la cara superior de hojas basales, caída de hojas. O. silicua: áreas amarillas irregulares que pasan a necrosis; el polvo blanco cuesta verlo.",
+        "cuando": "Meses de julio a octubre, en invernadero y campo.",
+        "condiciones": "Temperaturas altas, humedad relativa baja (52–75%), riego por goteo. Policíclica.",
+        "diseminacion": "Viento; sobrevive en tejido vivo de hospederos alternativos (malezas)."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿Hay polvo blanco en la cara superior de las hojas basales?",
+        "confundible_con": [
+          "moho_hoja"
+        ]
+      },
+      "notas": "Síntoma en tallo no descrito."
+    },
+    {
+      "id": "chupadera",
+      "nombre": "Chupadera o mal de los almácigos",
+      "agente_causal": "Fusarium spp., Phytophthora spp., Rhizoctonia spp. y Pythium spp. (damping off)",
+      "grupo": "Hongos",
+      "pagina_guia": 35,
+      "organos": [
+        "Raíz",
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Plantas marchitas en zonas de acumulación de humedad del almácigo; estrangulamiento muy marcado a nivel del cuello que se extiende a la raíz.",
+        "cuando": "Almácigo, trasplante y post-trasplante (sobre todo con lluvias y temperatura alta).",
+        "condiciones": "Alta humedad por exceso de riego o alta densidad. Policíclica.",
+        "diseminacion": "Sustrato sin desinfectar y agua de riego."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿Es un plantín (almácigo o recién trasplantado) con el cuello estrangulado?",
+        "confundible_con": [
+          "tizon_temprano"
+        ]
+      },
+      "notas": "Es un complejo de agentes; la guía lo ubica en Hongos aunque incluye Phytophthora y Pythium (oomycetes)."
+    },
+    {
+      "id": "moho_gris",
+      "nombre": "Moho gris",
+      "agente_causal": "Botrytis cinerea",
+      "grupo": "Hongos",
+      "pagina_guia": 38,
+      "organos": [
+        "Flor",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Decoloración tenue del pedúnculo floral que pasa a amarillo y luego a necrosis que afecta toda la flor; infecciones también por lesiones en pétalos. Gran caída de flores.",
+        "cuando": "Flores y frutos; en invernaderos con poca ventilación.",
+        "condiciones": "Temperaturas moderadas y humedad alta; alta densidad, períodos lluviosos, invernaderos mal ventilados. Policíclica.",
+        "diseminacion": "Viento (esporas livianas); sobrevive en restos de cosecha y otras plantas."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿El pedúnculo de la flor se decolora y amarillea, con caída de flores?",
+        "confundible_con": []
+      },
+      "notas": "La guía dice que en la zona solo se observó en flores y frutos, pero solo describe el síntoma en flor."
+    },
+    {
+      "id": "colletotrichum",
+      "nombre": "Podredumbre por Colletotrichum",
+      "agente_causal": "Colletotrichum spp.",
+      "grupo": "Hongos",
+      "pagina_guia": 42,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Cosecha",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Frutos en distinto estado con manchas oscuras pequeñas que no progresan; al llegar a madurez comercial las lesiones crecen y aparece una masa gelatinosa rosada.",
+        "cuando": "Frutos verdes a maduros; lesiones crecen en madurez comercial.",
+        "condiciones": "25–30 °C y períodos de alta humedad; plantaciones densas.",
+        "diseminacion": "No descrita."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿Hay una masa gelatinosa rosada sobre la lesión del fruto maduro?",
+        "confundible_con": [
+          "tizon_tardio",
+          "cancro",
+          "peste_negra",
+          "decoloracion_fruto",
+          "podredumbre_blanda"
+        ]
+      },
+      "notas": "Enfermedad recién detectada en la zona, importancia sin determinar. Tallo y hoja figuran en el cuadro pero sin síntoma descrito."
+    },
+    {
+      "id": "moho_hoja",
+      "nombre": "Moho de la hoja",
+      "agente_causal": "Fulvia fulva (Cladosporium fulvum)",
+      "grupo": "Hongos",
+      "pagina_guia": 45,
+      "organos": [
+        "Hoja"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Manchas verde pálido en la cara superior de hojas viejas que pasan a amarillas de borde difuso y se unen; en el envés, terciopelo marrón (signo).",
+        "cuando": "Empieza en hojas más viejas; puede causar defoliación.",
+        "condiciones": "Humedad mayor al 85%, óptimo 22–24 °C; alta densidad y exceso de riego.",
+        "diseminacion": "No descrita."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿Hay terciopelo marrón en el envés de la mancha?",
+        "confundible_con": [
+          "tizon_temprano",
+          "mancha_gris",
+          "mancha_bacteriana",
+          "tizon_tardio",
+          "cenicilla"
+        ]
+      },
+      "notas": null
+    },
+    {
+      "id": "raiz_corchosa",
+      "nombre": "Raíz corchosa",
+      "agente_causal": "Sin determinación",
+      "grupo": "Hongos",
+      "pagina_guia": 48,
+      "organos": [
+        "Raíz"
+      ],
+      "filtros": {
+        "etapa": "Cosecha",
+        "clima": "No depende / no aplica",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Raíz con segmentos necrosados y resquebrajados a lo largo, aspecto de corcho; amarillamiento paulatino de la parte aérea.",
+        "cuando": "Síntomas al iniciar la cosecha.",
+        "condiciones": "Suelos con baja materia orgánica y poca actividad microbiana.",
+        "diseminacion": "No descrita."
+      },
+      "propuesta": {
+        "otro_indicio": "Suelo pobre en materia orgánica.",
+        "pregunta_desempate": "Al arrancar la planta: ¿la raíz está resquebrajada, con aspecto de corcho?",
+        "confundible_con": []
+      },
+      "notas": "Agente sin determinar; no hay control químico según la guía."
+    },
+    {
+      "id": "moho_blanco",
+      "nombre": "Moho blanco",
+      "agente_causal": "Sclerotinia sclerotiorum",
+      "grupo": "Hongos",
+      "pagina_guia": 51,
+      "organos": [
+        "Tallo",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Cualquiera",
+        "clima": "Fresco y húmedo (≤ 22 °C)",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "A media altura del tallo, lesiones acuosas con micelio blanco algodonoso; dentro se forman esclerocios negros de tamaño irregular; puede matar la planta.",
+        "cuando": "Cualquier estado de desarrollo; infecciones de mayo a julio.",
+        "condiciones": "15–21 °C y alta humedad cerca del suelo (riego excesivo). Monocíclica.",
+        "diseminacion": "Esclerocios que sobreviven años en el suelo; ataca muchas especies."
+      },
+      "propuesta": {
+        "otro_indicio": "Esclerocios negros e irregulares.",
+        "pregunta_desempate": "¿El micelio está a media altura del tallo y los esclerocios son negros e irregulares?",
+        "confundible_con": [
+          "pata_blanca"
+        ]
+      },
+      "notas": "Fruto figura en el cuadro pero sin síntoma descrito."
+    },
+    {
+      "id": "pata_blanca",
+      "nombre": "Pata blanca",
+      "agente_causal": "Sclerotium rolfsii",
+      "grupo": "Hongos",
+      "pagina_guia": 55,
+      "organos": [
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "Cualquiera",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Lesiones acuosas reblandecidas en el cuello o en órganos en contacto con el suelo; micelio blanco tipo raíz (rizomorfo) adherido al tallo; esclerocios esféricos castaños; marchitez y muerte.",
+        "cuando": "Cualquier estado; en la zona de contacto planta-suelo (cuello).",
+        "condiciones": "Temperaturas moderadamente altas y humedad alta en el cuello. Monocíclica.",
+        "diseminacion": "Esclerocios en el suelo."
+      },
+      "propuesta": {
+        "otro_indicio": "Esclerocios esféricos castaños.",
+        "pregunta_desempate": "¿En la base del tallo hay micelio en forma de raíces con esclerocios castaños y redondos?",
+        "confundible_con": [
+          "moho_blanco"
+        ]
+      },
+      "notas": "Frecuente pero rara vez causa pérdidas significativas."
+    },
+    {
+      "id": "verticillium",
+      "nombre": "Marchitez por Verticillium",
+      "agente_causal": "Verticillium dahliae (la guía escribe 'daliae')",
+      "grupo": "Hongos",
+      "pagina_guia": 59,
+      "organos": [
+        "Raíz",
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Fresco y húmedo (≤ 22 °C)",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Como Fusarium pero más leve: decoloración tenue, amarillamiento de hojas basales, necrosis en 'V' característica; leve oscurecimiento de haces vasculares en corte transversal.",
+        "cuando": "No indica.",
+        "condiciones": "Alta humedad del suelo (mal riego o lluvias), ~20 °C.",
+        "diseminacion": "Suelo; malezas solanáceas mantienen el patógeno."
+      },
+      "propuesta": {
+        "otro_indicio": "Necrosis en 'V' en la hoja.",
+        "pregunta_desempate": "¿Hay necrosis en 'V' en las hojas y el oscurecimiento del tallo es leve?",
+        "confundible_con": [
+          "fusarium",
+          "marchitamiento_bacteriano"
+        ]
+      },
+      "notas": "Manejable con material resistente."
+    },
+    {
+      "id": "tizon_tardio",
+      "nombre": "Tizón tardío del tomate",
+      "agente_causal": "Phytophthora infestans",
+      "grupo": "Oomycetes",
+      "pagina_guia": 65,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Cualquiera",
+        "clima": "Fresco y húmedo (≤ 22 °C)",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Hojas con áreas necrosadas rodeadas de fieltro blanco que pueden abarcar toda la hoja; tallos con segmentos oscuros que pueden estrangularlo; frutos con zonas color chocolate.",
+        "cuando": "Cualquier estado de desarrollo; no todos los años, pero cuando aparece puede destruir el cultivo.",
+        "condiciones": "17–22 °C durante más de 12 h con alta humedad (neblina, llovizna, exceso de riego). Policíclica.",
+        "diseminacion": "No descrita."
+      },
+      "propuesta": {
+        "otro_indicio": "Fieltro blanco en el borde de la lesión; fruto color chocolate.",
+        "pregunta_desempate": "¿Hay fieltro blanco alrededor de la lesión y zonas color chocolate en fruto?",
+        "confundible_con": [
+          "tizon_temprano",
+          "mancha_gris",
+          "mancha_bacteriana",
+          "moho_hoja",
+          "colletotrichum",
+          "cancro",
+          "peste_negra",
+          "decoloracion_fruto",
+          "podredumbre_blanda"
+        ]
+      },
+      "notas": null
+    },
+    {
+      "id": "marchitamiento_bacteriano",
+      "nombre": "Marchitamiento bacteriano",
+      "agente_causal": "Ralstonia solanacearum",
+      "grupo": "Bacterias",
+      "pagina_guia": 71,
+      "organos": [
+        "Raíz",
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Marchitez severa, repentina e irreversible que empieza en el ápice; oscurecimiento del tejido de conducción en tallo y raíces; en agua destilada, los tallos sueltan suspensión blanquecina (zooglea).",
+        "cuando": "No indica; en suelo infectado aparece en manchones.",
+        "condiciones": "Temperaturas altas y alta humedad del suelo. Policíclica.",
+        "diseminacion": "Suelo y agua; sobrevive hasta 17 años en suelo."
+      },
+      "propuesta": {
+        "otro_indicio": "Manchones en el lote.",
+        "pregunta_desempate": "¿La marchitez fue repentina, en manchones, empezando por el ápice?",
+        "confundible_con": [
+          "fusarium",
+          "verticillium"
+        ]
+      },
+      "notas": "La prueba del agua descrita usa agua destilada; falta versión practicable a campo."
+    },
+    {
+      "id": "medula_hueca",
+      "nombre": "Médula hueca",
+      "agente_causal": "Pseudomonas corrugata",
+      "grupo": "Bacterias",
+      "pagina_guia": 74,
+      "organos": [
+        "Semilla",
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "Cosecha",
+        "clima": "Fresco y húmedo (≤ 22 °C)",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Amarillamiento y marchitez; en corte transversal del tallo, médula marrón que luego se desintegra y queda hueca.",
+        "cuando": "Cerca de la cosecha.",
+        "condiciones": "Bajas temperaturas nocturnas y alta humedad ambiental.",
+        "diseminacion": "Semilla enferma y hospederos alternativos en el campo."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "Al cortar el tallo: ¿la médula está marrón o hueca?",
+        "confundible_con": [
+          "cancro",
+          "podredumbre_blanda"
+        ]
+      },
+      "notas": "Baja importancia, ocurrencia esporádica."
+    },
+    {
+      "id": "cancro",
+      "nombre": "Cancro bacteriano",
+      "agente_causal": "Clavibacter michiganensis subsp. michiganensis",
+      "grupo": "Bacterias",
+      "pagina_guia": 78,
+      "organos": [
+        "Semilla",
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Cualquiera",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Marchitez unilateral de hojas bajas y medias en plantas jóvenes; necrosis en bordes de hojas bajas y a lo largo del tallo; cancros y raíces adventicias en tallo; en fruto, necrosis del cáliz, reticulado y 'ojo de pájaro'; oscurecimiento vascular.",
+        "cuando": "Plantas jóvenes (infección sistémica) y grandes (infección localizada).",
+        "condiciones": "18–25 °C y humedad alta; desbrote y entutorado con humedad alta aumentan la incidencia. Policíclica.",
+        "diseminacion": "Semilla infectada (larga distancia); suelo, agua, labores de entutorado/poda/desbrote; sobrevive en restos, postes, alambrados, plásticos."
+      },
+      "propuesta": {
+        "otro_indicio": "Labores de desbrote o entutorado con humedad alta.",
+        "pregunta_desempate": "¿Marchitez de hojas de un solo lado, cancros en el tallo u 'ojo de pájaro' en el fruto?",
+        "confundible_con": [
+          "medula_hueca",
+          "podredumbre_blanda",
+          "tizon_tardio",
+          "colletotrichum",
+          "peste_negra",
+          "decoloracion_fruto"
+        ]
+      },
+      "notas": "Es la enfermedad bacteriana más importante del cultivo según la guía."
+    },
+    {
+      "id": "mancha_bacteriana",
+      "nombre": "Mancha bacteriana",
+      "agente_causal": "Xanthomonas spp.",
+      "grupo": "Bacterias",
+      "pagina_guia": 84,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Moderado a cálido y húmedo",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Pequeñas áreas irregulares de color oscuro repartidas por toda la superficie de hojas viejas; se unen en grandes áreas muertas y caen las hojas.",
+        "cuando": "Primeros síntomas en las hojas más viejas.",
+        "condiciones": "20–30 °C, humedad alta con precipitaciones; el viento acelera la diseminación.",
+        "diseminacion": "Viento."
+      },
+      "propuesta": {
+        "otro_indicio": null,
+        "pregunta_desempate": "¿Son manchas pequeñas, irregulares y oscuras repartidas por toda la hoja (sin anillos concéntricos)?",
+        "confundible_con": [
+          "tizon_temprano",
+          "mancha_gris",
+          "tizon_tardio",
+          "moho_hoja"
+        ]
+      },
+      "notas": "Tallo y fruto figuran en el cuadro pero sin síntoma descrito. 'Sin anillos' es una diferenciación propuesta, no dicha por la guía."
+    },
+    {
+      "id": "podredumbre_blanda",
+      "nombre": "Podredumbre blanda",
+      "agente_causal": "Erwinia carotovora subsp. carotovora",
+      "grupo": "Bacterias",
+      "pagina_guia": 87,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Húmedo (sin dato de temperatura)",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Oscurecimiento externo del tallo por podredumbre alrededor de los puntos de infección; luego descompone la médula; el fruto se descompone por dentro con aspecto de 'bolsa de agua'.",
+        "cuando": "Tras desbrote; con lluvia, rocío o riego excesivo.",
+        "condiciones": "Alta humedad y agua sobre planta con heridas; nitrógeno alto.",
+        "diseminacion": "Entra por heridas de desbrote y picaduras de insectos."
+      },
+      "propuesta": {
+        "otro_indicio": "Herida reciente (desbrote, insecto) con agua sobre la planta.",
+        "pregunta_desempate": "¿Hubo herida reciente (desbrote, picadura) y el tejido está blando, como bolsa de agua?",
+        "confundible_con": [
+          "cancro",
+          "medula_hueca",
+          "tizon_tardio",
+          "colletotrichum",
+          "peste_negra",
+          "decoloracion_fruto"
+        ]
+      },
+      "notas": null
+    },
+    {
+      "id": "begomovirus",
+      "nombre": "Begomovirus",
+      "agente_causal": "Especies de begomovirus",
+      "grupo": "Virus",
+      "pagina_guia": 91,
+      "organos": [
+        "Raíz",
+        "Tallo",
+        "Hoja",
+        "Flor",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "No depende / no aplica",
+        "vector": "Mosca blanca"
+      },
+      "guia": {
+        "sintoma_clave": "Amarillamiento, achaparramiento y enanismo, moteado clorótico, torsión y acartuchamiento de hojas.",
+        "cuando": "Las plantas pueden infectarse ya en el almácigo.",
+        "condiciones": "Mosca blanca transmisora y malezas con virus cerca del cultivo.",
+        "diseminacion": "Mosca blanca."
+      },
+      "propuesta": {
+        "otro_indicio": "Presencia de mosca blanca; malezas con virus cerca.",
+        "pregunta_desempate": "¿Hay mosca blanca y torsión/acartuchamiento de hojas con amarillamiento y enanismo?",
+        "confundible_con": [
+          "cordon_zapato",
+          "peste_negra",
+          "2_4d",
+          "amarillamiento_apical"
+        ]
+      },
+      "notas": "Sistémico: el cuadro marca casi todos los órganos."
+    },
+    {
+      "id": "cordon_zapato",
+      "nombre": "Hojas cordón de zapato",
+      "agente_causal": "Cucumber mosaic virus (CMV)",
+      "grupo": "Virus",
+      "pagina_guia": 95,
+      "organos": [
+        "Raíz",
+        "Tallo",
+        "Hoja",
+        "Flor",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "No depende / no aplica",
+        "vector": "Pulgones"
+      },
+      "guia": {
+        "sintoma_clave": "Reducción de crecimiento, clorosis y encrespamiento; síntoma característico: hojas muy finas donde solo se ve la nervadura central.",
+        "cuando": "Esporádico en la zona.",
+        "condiciones": "Lotes aledaños con plantas infectadas y presencia de pulgones (transmisión no persistente, baja eficiencia).",
+        "diseminacion": "Pulgones."
+      },
+      "propuesta": {
+        "otro_indicio": "Pulgones; lotes vecinos con plantas infectadas.",
+        "pregunta_desempate": "¿Hay hojas muy finas donde solo se ve la nervadura central?",
+        "confundible_con": [
+          "begomovirus",
+          "peste_negra",
+          "2_4d",
+          "amarillamiento_apical"
+        ]
+      },
+      "notas": "Sistémico con síntomas marcados en hojas."
+    },
+    {
+      "id": "peste_negra",
+      "nombre": "Peste negra",
+      "agente_causal": "GRSV, TSWV y TCSV",
+      "grupo": "Virus",
+      "pagina_guia": 97,
+      "organos": [
+        "Raíz",
+        "Tallo",
+        "Hoja",
+        "Flor",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "No depende / no aplica",
+        "vector": "Trips"
+      },
+      "guia": {
+        "sintoma_clave": "Detención del crecimiento, arrosetamiento, bronceado de hojas con anillos concéntricos y severa deformación; frutos deformados con lesiones en forma de círculos, a veces concéntricos; necrosis, círculos y color morado en hojas.",
+        "cuando": "Síntomas más severos en infecciones tempranas; varían con especie viral, edad, cultivar y clima.",
+        "condiciones": "Hospederas alternativas con virus y trips en estado infectivo.",
+        "diseminacion": "Trips."
+      },
+      "propuesta": {
+        "otro_indicio": "Presencia de trips; malezas hospederas.",
+        "pregunta_desempate": "¿Hay círculos concéntricos y bronceado o color morado en hojas o frutos, con trips?",
+        "confundible_con": [
+          "begomovirus",
+          "cordon_zapato",
+          "2_4d",
+          "amarillamiento_apical",
+          "tizon_tardio",
+          "colletotrichum",
+          "cancro",
+          "decoloracion_fruto",
+          "podredumbre_blanda"
+        ]
+      },
+      "notas": "Es común ver plantas con síntomas aun con materiales resistentes."
+    },
+    {
+      "id": "decoloracion_fruto",
+      "nombre": "Decoloración del fruto",
+      "agente_causal": "Toxinas de mosca blanca",
+      "grupo": "Otros agentes",
+      "pagina_guia": 103,
+      "organos": [
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "Cosecha",
+        "clima": "No depende / no aplica",
+        "vector": "Mosca blanca"
+      },
+      "guia": {
+        "sintoma_clave": "Frutos en madurez con zonas verdes; la pulpa muestra la misma decoloración; no terminan de madurar.",
+        "cuando": "Frutos en estado de madurez.",
+        "condiciones": "Altas poblaciones de mosca blanca (más de 80% de frutos afectados en alta presión).",
+        "diseminacion": "Mosca blanca."
+      },
+      "propuesta": {
+        "otro_indicio": "Alta presión de mosca blanca.",
+        "pregunta_desempate": "¿El fruto maduro tiene zonas verdes y pulpa decolorada, con mosca blanca en el lote?",
+        "confundible_con": [
+          "tizon_tardio",
+          "colletotrichum",
+          "cancro",
+          "peste_negra",
+          "podredumbre_blanda"
+        ]
+      },
+      "notas": null
+    },
+    {
+      "id": "cabello_angel",
+      "nombre": "Cabello de ángel",
+      "agente_causal": "Cuscuta spp.",
+      "grupo": "Otros agentes",
+      "pagina_guia": 105,
+      "organos": [
+        "Tallo"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "No depende / no aplica",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Plantas rodeadas de tallos finos de color amarillento que crecen a expensas de la planta; pueden cubrirla por completo.",
+        "cuando": "No indica; ligado a almácigos con tierra de monte sin desinfectar.",
+        "condiciones": "Tierra de monte sin desinfectar con semillas de la maleza.",
+        "diseminacion": "Tierra de monte y animales que transportan semillas."
+      },
+      "propuesta": {
+        "otro_indicio": "Cercanía al monte; almácigo con tierra de monte.",
+        "pregunta_desempate": "¿Hay hilos finos amarillentos que envuelven la planta?",
+        "confundible_con": []
+      },
+      "notas": "Maleza parásita, no un patógeno."
+    },
+    {
+      "id": "quemadura_frio",
+      "nombre": "Quemadura por frío",
+      "agente_causal": "Bajas temperaturas",
+      "grupo": "Otros agentes",
+      "pagina_guia": 107,
+      "organos": [
+        "Semilla",
+        "Raíz",
+        "Tallo",
+        "Hoja",
+        "Flor",
+        "Fruto"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "Helada",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Oscurecimiento de los bordes de las hojas que luego se generaliza; en brotes se detiene el crecimiento con oscurecimiento del interior.",
+        "cuando": "Años con heladas atípicas.",
+        "condiciones": "Temperaturas menores a 0–1 °C; el daño depende del tiempo de exposición.",
+        "diseminacion": "No aplica."
+      },
+      "propuesta": {
+        "otro_indicio": "Helada reciente.",
+        "pregunta_desempate": "¿Hubo temperaturas bajo 0–1 °C en los días previos?",
+        "confundible_con": []
+      },
+      "notas": "El cuadro marca los seis órganos pero el texto solo describe hojas y brotes."
+    },
+    {
+      "id": "amarillamiento_apical",
+      "nombre": "Amarillamiento apical (deriva de herbicida)",
+      "agente_causal": "Deriva por herbicida (glifosato)",
+      "grupo": "Otros agentes",
+      "pagina_guia": 111,
+      "organos": [
+        "Tallo",
+        "Hoja",
+        "Flor"
+      ],
+      "filtros": {
+        "etapa": "Almácigo/trasplante",
+        "clima": "No depende / no aplica",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Hojas en activo crecimiento con amarillamiento muy marcado en la base; las plantas detienen el crecimiento y en casos severos no se recuperan.",
+        "cuando": "Plantas jóvenes sembradas cerca de soja o poroto.",
+        "condiciones": "Cercanía a plantaciones de soja o poroto (deriva de glifosato).",
+        "diseminacion": "Deriva de la aplicación."
+      },
+      "propuesta": {
+        "otro_indicio": "Soja o poroto cercanos.",
+        "pregunta_desempate": "¿Hay soja o poroto cerca y el amarillamiento está en la base de las hojas en crecimiento?",
+        "confundible_con": [
+          "begomovirus",
+          "cordon_zapato",
+          "peste_negra",
+          "2_4d"
+        ]
+      },
+      "notas": "La ficha ubica el daño en puntos de crecimiento; el cuadro marca tallo, hoja y flor."
+    },
+    {
+      "id": "2_4d",
+      "nombre": "2,4-D (deriva de herbicida)",
+      "agente_causal": "Deriva por herbicida (2,4-D)",
+      "grupo": "Otros agentes",
+      "pagina_guia": 115,
+      "organos": [
+        "Tallo",
+        "Hoja"
+      ],
+      "filtros": {
+        "etapa": "No indica",
+        "clima": "No depende / no aplica",
+        "vector": null
+      },
+      "guia": {
+        "sintoma_clave": "Desarrollo anormal de hojas en puntos de crecimiento, con afinamiento tipo hojas de helecho, marcada detención del crecimiento y a veces amarillamiento de nervaduras.",
+        "cuando": "Lotes completos afectados eventualmente.",
+        "condiciones": "Uso inadecuado de herbicidas (2,4-D éster) en el predio o fincas vecinas.",
+        "diseminacion": "Deriva de la aplicación."
+      },
+      "propuesta": {
+        "otro_indicio": "Aplicación de herbicida en el predio o fincas vecinas.",
+        "pregunta_desempate": "¿Las hojas nuevas están afinadas tipo helecho y hubo herbicida cerca?",
+        "confundible_con": [
+          "begomovirus",
+          "cordon_zapato",
+          "peste_negra",
+          "amarillamiento_apical"
+        ]
+      },
+      "notas": null
+    }
+  ],
+  "arbol": [
+    {
+      "id": "plantin",
+      "nombre": "Plantín / almácigo",
+      "patrones": [
+        {
+          "id": "plantin_cuello",
+          "nombre": "Cuello estrangulado o plantas marchitas en zonas húmedas",
+          "pregunta": "¿El cuello tiene un estrangulamiento marcado?",
+          "enfermedades": [
+            {
+              "id": "chupadera",
+              "rasgo": "Estrangulamiento marcado del cuello que se extiende a la raíz"
+            },
+            {
+              "id": "tizon_temprano",
+              "rasgo": "Necrosis a nivel del cuello que termina estrangulando el plantín"
+            }
+          ]
+        },
+        {
+          "id": "plantin_manchas",
+          "nombre": "Manchas castañas de borde desuniforme en hojas jóvenes o tallos",
+          "pregunta": "¿Las manchas son pequeñas, castaño oscuro y de borde desuniforme?",
+          "enfermedades": [
+            {
+              "id": "mancha_gris",
+              "rasgo": "Lesiones pequeñas castaño oscuro en hojas jóvenes y tallos de plantines"
+            }
+          ]
+        },
+        {
+          "id": "plantin_virus",
+          "nombre": "Plantín con moteado, torsión o achaparramiento",
+          "pregunta": "¿Hay mosca blanca en el almácigo?",
+          "enfermedades": [
+            {
+              "id": "begomovirus",
+              "rasgo": "Puede infectarse en el almácigo; moteado, torsión, achaparramiento"
+            }
+          ]
+        },
+        {
+          "id": "plantin_hilos",
+          "nombre": "Hilos amarillentos que envuelven plantas (almácigo con tierra de monte)",
+          "pregunta": "¿El sustrato incluye tierra de monte sin desinfectar?",
+          "enfermedades": [
+            {
+              "id": "cabello_angel",
+              "rasgo": "Tallos finos amarillentos que envuelven la planta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planta",
+      "nombre": "Planta entera / síntoma general",
+      "patrones": [
+        {
+          "id": "planta_subita",
+          "nombre": "Marchitez súbita en manchones, desde el ápice",
+          "pregunta": "¿Se marchitó de golpe, en manchones, empezando por el ápice?",
+          "enfermedades": [
+            {
+              "id": "marchitamiento_bacteriano",
+              "rasgo": "Marchitez severa, repentina e irreversible desde el ápice"
+            }
+          ]
+        },
+        {
+          "id": "planta_gradual",
+          "nombre": "Amarillamiento y marchitez gradual desde hojas basales, cerca de cosecha",
+          "pregunta": "¿Al cortar el tallo o mirar la raíz hay oscurecimiento interno, raíz corchosa o médula hueca?",
+          "enfermedades": [
+            {
+              "id": "fusarium",
+              "rasgo": "Hojas basales amarillas, plantas verde claro; oscurecimiento interno marcado"
+            },
+            {
+              "id": "verticillium",
+              "rasgo": "Igual pero más leve; necrosis en 'V'"
+            },
+            {
+              "id": "raiz_corchosa",
+              "rasgo": "Amarillamiento paulatino con raíz tipo corcho"
+            },
+            {
+              "id": "medula_hueca",
+              "rasgo": "Amarillamiento y marchitez cerca de la cosecha; médula marrón o hueca"
+            }
+          ]
+        },
+        {
+          "id": "planta_unilateral",
+          "nombre": "Marchitez de hojas de un solo lado",
+          "pregunta": "¿Se marchitan solo hojas de un lado de la parte baja y media?",
+          "enfermedades": [
+            {
+              "id": "cancro",
+              "rasgo": "Marchitamiento unilateral de hojas bajas y medias en plantas jóvenes"
+            }
+          ]
+        },
+        {
+          "id": "planta_enanismo",
+          "nombre": "Enanismo, achaparramiento o detención del crecimiento",
+          "pregunta": "¿Hay mosca blanca, trips, pulgones o hubo herbicida cerca?",
+          "enfermedades": [
+            {
+              "id": "begomovirus",
+              "rasgo": "Enanismo y achaparramiento con mosca blanca"
+            },
+            {
+              "id": "peste_negra",
+              "rasgo": "Detención del crecimiento y arrosetamiento con trips"
+            },
+            {
+              "id": "cordon_zapato",
+              "rasgo": "Reducción de crecimiento, clorosis y encrespamiento con pulgones"
+            },
+            {
+              "id": "amarillamiento_apical",
+              "rasgo": "Detención del crecimiento cerca de soja o poroto"
+            },
+            {
+              "id": "2_4d",
+              "rasgo": "Marcada detención del crecimiento tras herbicida"
+            }
+          ]
+        },
+        {
+          "id": "planta_helada",
+          "nombre": "Daño generalizado después de una helada",
+          "pregunta": "¿Hubo temperaturas bajo 0–1 °C?",
+          "enfermedades": [
+            {
+              "id": "quemadura_frio",
+              "rasgo": "Bordes de hojas oscurecidos que se generalizan; brotes detenidos"
+            }
+          ]
+        },
+        {
+          "id": "planta_hilos",
+          "nombre": "Planta cubierta de hilos amarillos",
+          "pregunta": "¿Hay hilos finos amarillentos envolviendo la planta?",
+          "enfermedades": [
+            {
+              "id": "cabello_angel",
+              "rasgo": "Puede cubrir la planta por completo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raiz",
+      "nombre": "Raíz y cuello",
+      "patrones": [
+        {
+          "id": "raiz_corcho",
+          "nombre": "Raíz resquebrajada como corcho",
+          "pregunta": "¿Los segmentos de raíz están necrosados y resquebrajados a lo largo?",
+          "enfermedades": [
+            {
+              "id": "raiz_corchosa",
+              "rasgo": "Segmentos necrosados resquebrajados, aspecto de corcho"
+            }
+          ]
+        },
+        {
+          "id": "raiz_vascular",
+          "nombre": "Oscurecimiento del tejido interno en cuello o raíz principal",
+          "pregunta": "¿La marchitez fue súbita o gradual? ¿El oscurecimiento es marcado o leve?",
+          "enfermedades": [
+            {
+              "id": "fusarium",
+              "rasgo": "Oscurecimiento de tejidos internos en cuello, raíz principal y tallo"
+            },
+            {
+              "id": "verticillium",
+              "rasgo": "Leve oscurecimiento de haces vasculares"
+            },
+            {
+              "id": "marchitamiento_bacteriano",
+              "rasgo": "Oscurecimiento del tejido de conducción en tallo y raíces"
+            }
+          ]
+        },
+        {
+          "id": "raiz_cuello",
+          "nombre": "Lesión acuosa o estrangulamiento a nivel del cuello",
+          "pregunta": "¿Hay micelio blanco en forma de raíz sobre el cuello, o es un plantín?",
+          "enfermedades": [
+            {
+              "id": "pata_blanca",
+              "rasgo": "Lesión acuosa reblandecida en el cuello con micelio rizomorfo"
+            },
+            {
+              "id": "chupadera",
+              "rasgo": "Estrangulamiento del cuello en plantín"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tallo",
+      "nombre": "Tallo",
+      "patrones": [
+        {
+          "id": "tallo_micelio",
+          "nombre": "Micelio blanco visible con esclerocios",
+          "pregunta": "¿Dónde está el micelio y cómo son los esclerocios?",
+          "enfermedades": [
+            {
+              "id": "moho_blanco",
+              "rasgo": "Media altura; micelio algodonoso; esclerocios negros irregulares"
+            },
+            {
+              "id": "pata_blanca",
+              "rasgo": "En el cuello; micelio tipo raíz; esclerocios castaños esféricos"
+            }
+          ]
+        },
+        {
+          "id": "tallo_necrosis",
+          "nombre": "Necrosis, cancros o podredumbre por fuera",
+          "pregunta": "¿Hay lesión en hojas o frutos a la vez? ¿Hubo desbrote o herida reciente? ¿Hay cancros con raíces adventicias?",
+          "enfermedades": [
+            {
+              "id": "tizon_tardio",
+              "rasgo": "Segmentos oscuros que pueden estrangular el tallo; también hoja y fruto"
+            },
+            {
+              "id": "podredumbre_blanda",
+              "rasgo": "Oscurecimiento externo por podredumbre desde heridas de desbrote"
+            },
+            {
+              "id": "cancro",
+              "rasgo": "Cancros con raíces adventicias; necrosis a lo largo del tallo"
+            },
+            {
+              "id": "mancha_gris",
+              "rasgo": "Lesiones pequeñas castaño oscuro en tallos"
+            }
+          ]
+        },
+        {
+          "id": "tallo_interno",
+          "nombre": "Por fuera parece sano: cortar en transversal",
+          "pregunta": "Al cortar: ¿haces oscuros marcados, leves, médula marrón o hueca?",
+          "enfermedades": [
+            {
+              "id": "fusarium",
+              "rasgo": "Oscurecimiento marcado del tejido interno"
+            },
+            {
+              "id": "verticillium",
+              "rasgo": "Oscurecimiento leve de haces vasculares"
+            },
+            {
+              "id": "marchitamiento_bacteriano",
+              "rasgo": "Tejido de conducción oscurecido; zooglea en agua destilada"
+            },
+            {
+              "id": "medula_hueca",
+              "rasgo": "Médula marrón que se desintegra y queda hueca"
+            },
+            {
+              "id": "cancro",
+              "rasgo": "Oscurecimiento del tejido de conducción"
+            },
+            {
+              "id": "podredumbre_blanda",
+              "rasgo": "Descomposición de la médula y tejidos cercanos"
+            }
+          ]
+        },
+        {
+          "id": "tallo_hilos",
+          "nombre": "Hilos amarillentos que envuelven el tallo",
+          "pregunta": "¿Hay hilos finos amarillentos enrollados en el tallo?",
+          "enfermedades": [
+            {
+              "id": "cabello_angel",
+              "rasgo": "Tallos finos amarillentos que rodean la planta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoja",
+      "nombre": "Hoja",
+      "patrones": [
+        {
+          "id": "hoja_manchas",
+          "nombre": "Manchas con forma definida",
+          "pregunta": "¿Anillos concéntricos? ¿Centro que se cae? ¿Fieltro blanco? ¿Terciopelo marrón en el envés?",
+          "enfermedades": [
+            {
+              "id": "tizon_temprano",
+              "rasgo": "Circulares café con anillos concéntricos y halo amarillo, hojas bajas"
+            },
+            {
+              "id": "mancha_gris",
+              "rasgo": "Pequeñas castaño oscuro, borde desuniforme; centro claro que se cae y deja agujeros"
+            },
+            {
+              "id": "mancha_bacteriana",
+              "rasgo": "Pequeñas irregulares oscuras por toda la hoja vieja; se unen y caen las hojas"
+            },
+            {
+              "id": "tizon_tardio",
+              "rasgo": "Áreas necrosadas rodeadas de fieltro blanco; pasa a tallos y frutos"
+            },
+            {
+              "id": "moho_hoja",
+              "rasgo": "Verde pálido a amarillo de borde difuso arriba; terciopelo marrón en el envés"
+            }
+          ]
+        },
+        {
+          "id": "hoja_polvo",
+          "nombre": "Polvo blanco",
+          "pregunta": "¿El polvo blanco está en la cara superior de hojas basales?",
+          "enfermedades": [
+            {
+              "id": "cenicilla",
+              "rasgo": "Manchas circulares blancas polvorientas en la cara superior de hojas basales"
+            }
+          ]
+        },
+        {
+          "id": "hoja_deformacion",
+          "nombre": "Deformación, torsión o cambio de forma",
+          "pregunta": "¿Hay mosca blanca, pulgones, trips o herbicida cerca?",
+          "enfermedades": [
+            {
+              "id": "begomovirus",
+              "rasgo": "Torsión, acartuchamiento y moteado clorótico"
+            },
+            {
+              "id": "cordon_zapato",
+              "rasgo": "Hojas muy finas, solo se ve la nervadura central"
+            },
+            {
+              "id": "2_4d",
+              "rasgo": "Afinamiento tipo hojas de helecho en puntos de crecimiento"
+            },
+            {
+              "id": "amarillamiento_apical",
+              "rasgo": "Amarillamiento muy marcado en la base de hojas en crecimiento"
+            },
+            {
+              "id": "peste_negra",
+              "rasgo": "Severa deformación con bronceado"
+            }
+          ]
+        },
+        {
+          "id": "hoja_anillos",
+          "nombre": "Anillos concéntricos, bronceado o color morado con necrosis",
+          "pregunta": "¿Hay trips y los anillos aparecen también en frutos?",
+          "enfermedades": [
+            {
+              "id": "peste_negra",
+              "rasgo": "Bronceado con anillos concéntricos, necrosis y color morado"
+            }
+          ]
+        },
+        {
+          "id": "hoja_amarillo_basal",
+          "nombre": "Amarillamiento de hojas basales (derivar a Planta entera)",
+          "pregunta": "¿Al cortar el tallo hay oscurecimiento interno? ¿La raíz está en corcho?",
+          "enfermedades": [
+            {
+              "id": "fusarium",
+              "rasgo": "Amarillamiento de hojas basales"
+            },
+            {
+              "id": "verticillium",
+              "rasgo": "Amarillamiento de hojas basales con necrosis en 'V'"
+            },
+            {
+              "id": "raiz_corchosa",
+              "rasgo": "Amarillamiento paulatino de la parte aérea"
+            }
+          ]
+        },
+        {
+          "id": "hoja_bordes",
+          "nombre": "Bordes oscurecidos que se generalizan",
+          "pregunta": "¿Hubo helada reciente?",
+          "enfermedades": [
+            {
+              "id": "quemadura_frio",
+              "rasgo": "Oscurecimiento de bordes que se generaliza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flor",
+      "nombre": "Flor",
+      "patrones": [
+        {
+          "id": "flor_pedunculo",
+          "nombre": "Pedúnculo decolorado y caída de flores",
+          "pregunta": "¿El pedúnculo se decolora y amarillea?",
+          "enfermedades": [
+            {
+              "id": "moho_gris",
+              "rasgo": "Decoloración del pedúnculo, amarillo, necrosis de toda la flor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruto",
+      "nombre": "Fruto",
+      "patrones": [
+        {
+          "id": "fruto_manchas",
+          "nombre": "Manchas o lesiones",
+          "pregunta": "¿Color chocolate? ¿Masa rosada? ¿Reticulado u 'ojo de pájaro'? ¿Círculos concéntricos?",
+          "enfermedades": [
+            {
+              "id": "tizon_tardio",
+              "rasgo": "Zonas de color chocolate"
+            },
+            {
+              "id": "colletotrichum",
+              "rasgo": "Manchas oscuras pequeñas que crecen al madurar, con masa gelatinosa rosada"
+            },
+            {
+              "id": "cancro",
+              "rasgo": "Necrosis del cáliz, reticulado y ojo de pájaro"
+            },
+            {
+              "id": "peste_negra",
+              "rasgo": "Frutos deformados con círculos, a veces concéntricos"
+            },
+            {
+              "id": "tizon_temprano",
+              "rasgo": "Incluido en la ficha; síntoma no descrito en el texto (ver fotos)"
+            }
+          ]
+        },
+        {
+          "id": "fruto_blando",
+          "nombre": "Podredumbre húmeda, fruto blando",
+          "pregunta": "¿Hubo herida o picadura de insecto?",
+          "enfermedades": [
+            {
+              "id": "podredumbre_blanda",
+              "rasgo": "Se descompone por dentro con aspecto de bolsa de agua"
+            }
+          ]
+        },
+        {
+          "id": "fruto_maduracion",
+          "nombre": "Maduración anormal con zonas verdes",
+          "pregunta": "¿Hay mosca blanca en el lote?",
+          "enfermedades": [
+            {
+              "id": "decoloracion_fruto",
+              "rasgo": "Zonas verdes en fruto maduro, pulpa decolorada"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "confundibles": [
+    {
+      "grupo": "Marchitez y oscurecimiento vascular",
+      "enfermedades": [
+        {
+          "id": "fusarium",
+          "distingue": "Oscurecimiento marcado; suele aparecer al inicio de cosecha; hojas basales amarillas"
+        },
+        {
+          "id": "verticillium",
+          "distingue": "Más leve; necrosis en 'V' en la hoja; leve oscurecimiento de haces"
+        },
+        {
+          "id": "marchitamiento_bacteriano",
+          "distingue": "Marchitez repentina e irreversible desde el ápice, en manchones; zooglea en agua"
+        }
+      ],
+      "observacion_campo": "Cortar el tallo en transversal y mirar cuello; observar si la marchitez fue súbita o gradual y si hay manchones."
+    },
+    {
+      "grupo": "Esclerocios y micelio blanco",
+      "enfermedades": [
+        {
+          "id": "moho_blanco",
+          "distingue": "A media altura del tallo; esclerocios negros de tamaño irregular"
+        },
+        {
+          "id": "pata_blanca",
+          "distingue": "En el cuello; micelio tipo raíz; esclerocios castaños esféricos"
+        }
+      ],
+      "observacion_campo": "Ubicar la lesión (media altura vs. cuello) y el color y forma de los esclerocios."
+    },
+    {
+      "grupo": "Podredumbre o daño interno del tallo",
+      "enfermedades": [
+        {
+          "id": "cancro",
+          "distingue": "Cancros con raíces adventicias; ojo de pájaro en fruto; marchitez unilateral"
+        },
+        {
+          "id": "medula_hueca",
+          "distingue": "Médula marrón que se deshace y queda hueca; cerca de la cosecha"
+        },
+        {
+          "id": "podredumbre_blanda",
+          "distingue": "Oscurecimiento externo desde herida de desbrote; fruto como bolsa de agua"
+        }
+      ],
+      "observacion_campo": "Cortar el tallo; preguntar por desbrote reciente y humedad."
+    },
+    {
+      "grupo": "Manchas necróticas en hoja",
+      "enfermedades": [
+        {
+          "id": "tizon_temprano",
+          "distingue": "Anillos concéntricos con halo amarillo; hojas bajas"
+        },
+        {
+          "id": "mancha_gris",
+          "distingue": "Centro claro que se cae y deja agujeros; borde desuniforme"
+        },
+        {
+          "id": "mancha_bacteriana",
+          "distingue": "Manchas pequeñas irregulares oscuras que se unen; caen las hojas"
+        },
+        {
+          "id": "tizon_tardio",
+          "distingue": "Fieltro blanco en el borde; pasa a tallos y frutos; clima fresco y húmedo"
+        },
+        {
+          "id": "moho_hoja",
+          "distingue": "Amarillo de borde difuso arriba y terciopelo marrón en el envés"
+        }
+      ],
+      "observacion_campo": "Mirar el envés y el borde de la lesión; anotar clima de los últimos días."
+    },
+    {
+      "grupo": "Deformación de hojas y detención del crecimiento",
+      "enfermedades": [
+        {
+          "id": "begomovirus",
+          "distingue": "Torsión y acartuchamiento con mosca blanca"
+        },
+        {
+          "id": "cordon_zapato",
+          "distingue": "Hojas muy finas, solo nervadura central; pulgones"
+        },
+        {
+          "id": "peste_negra",
+          "distingue": "Anillos concéntricos, bronceado, morado; trips"
+        },
+        {
+          "id": "2_4d",
+          "distingue": "Afinamiento tipo helecho tras herbicida"
+        },
+        {
+          "id": "amarillamiento_apical",
+          "distingue": "Amarillo marcado en la base de hojas en crecimiento; cerca de soja o poroto"
+        }
+      ],
+      "observacion_campo": "Buscar insecto vector (mosca blanca, trips, pulgones) y preguntar por aplicaciones de herbicida cercanas."
+    },
+    {
+      "grupo": "Lesiones en fruto",
+      "enfermedades": [
+        {
+          "id": "tizon_tardio",
+          "distingue": "Zonas color chocolate"
+        },
+        {
+          "id": "colletotrichum",
+          "distingue": "Manchas oscuras pequeñas; masa rosada gelatinosa al madurar"
+        },
+        {
+          "id": "cancro",
+          "distingue": "Necrosis del cáliz, reticulado, ojo de pájaro"
+        },
+        {
+          "id": "peste_negra",
+          "distingue": "Fruto deformado con círculos, a veces concéntricos"
+        },
+        {
+          "id": "decoloracion_fruto",
+          "distingue": "Zonas verdes con pulpa decolorada; fruto maduro que no termina de madurar"
+        },
+        {
+          "id": "podredumbre_blanda",
+          "distingue": "Descomposición interna, aspecto de bolsa de agua"
+        }
+      ],
+      "observacion_campo": "Comparar con fotos de la guía y anotar si el fruto está verde o maduro."
+    },
+    {
+      "grupo": "Polvo blanco vs. terciopelo marrón",
+      "enfermedades": [
+        {
+          "id": "cenicilla",
+          "distingue": "Polvo blanco en la cara superior; clima cálido y seco"
+        },
+        {
+          "id": "moho_hoja",
+          "distingue": "Terciopelo marrón en el envés; humedad mayor a 85%"
+        }
+      ],
+      "observacion_campo": "Dar vuelta la hoja y mirar el envés."
+    },
+    {
+      "grupo": "Plantín con cuello afectado",
+      "enfermedades": [
+        {
+          "id": "chupadera",
+          "distingue": "Estrangulamiento marcado del cuello que se extiende a la raíz; marchitas en zonas húmedas"
+        },
+        {
+          "id": "tizon_temprano",
+          "distingue": "Necrosis en cuello que estrangula el plantín; después aparecen manchas con anillos"
+        }
+      ],
+      "observacion_campo": "Revisar sustrato y agua de riego; mirar si la lesión avanza por raíz."
+    }
+  ],
+  "vacios": [
+    {
+      "tipo": "Falta contenido",
+      "donde": "Cuadro resumen I",
+      "detalle": "El índice ubica el Cuadro resumen I en la p. 123 impresa, pero el PDF salta de la p. 122 a la 131.",
+      "accion": "Pedir a los autores la página faltante."
+    },
+    {
+      "tipo": "Cuadro vs. ficha",
+      "donde": "Amarillamiento apical",
+      "detalle": "La ficha ubica el daño en puntos de crecimiento; el Cuadro II marca tallo, hoja y flor.",
+      "accion": "Confirmar con los autores."
+    },
+    {
+      "tipo": "Cuadro vs. ficha",
+      "donde": "Quemadura por frío",
+      "detalle": "El Cuadro II marca los seis órganos; el texto solo describe hojas y brotes.",
+      "accion": "Confirmar qué se observa en fruto, flor y raíz."
+    },
+    {
+      "tipo": "Síntoma sin describir",
+      "donde": "Varias fichas",
+      "detalle": "Órganos marcados en el cuadro sin síntoma descrito: tizón temprano (tallo, fruto), mancha gris (tallo), colletotrichum (tallo, hoja), moho blanco (fruto), mancha bacteriana (tallo, fruto), moho gris (fruto), virus (raíz, flor), fusarium (semilla).",
+      "accion": "Completar con los autores o con fotos rotuladas."
+    },
+    {
+      "tipo": "Clasificación",
+      "donde": "Chupadera",
+      "detalle": "Agrupa Fusarium, Phytophthora, Rhizoctonia y Pythium; Phytophthora y Pythium son oomycetes pero la guía la lista en Hongos.",
+      "accion": "Decidir si la app la trata como complejo aparte."
+    },
+    {
+      "tipo": "Clasificación",
+      "donde": "Raíz corchosa",
+      "detalle": "Agente sin determinar; la guía la lista en Hongos.",
+      "accion": "Rotular como 'agente sin determinar' en la app."
+    },
+    {
+      "tipo": "Nomenclatura",
+      "donde": "Varias fichas",
+      "detalle": "Grafías y nombres de 2012 a revisar por un fitopatólogo: Verticillium 'daliae', Pytium, Rizoctonia, Fulvia fulva / Cladosporium fulvum, Erwinia carotovora, Lycopersicon esculentum.",
+      "accion": "Actualizar con los autores antes de publicar."
+    },
+    {
+      "tipo": "Manejo químico",
+      "donde": "Todas las fichas",
+      "detalle": "La guía es de 2012 y remite a CASAFE 2012 y SENASA Res. 256/2003; no da productos por enfermedad.",
+      "accion": "No fijar productos ni dosis en la app; enlazar a listados vigentes."
+    },
+    {
+      "tipo": "Prueba a campo",
+      "donde": "Marchitamiento bacteriano",
+      "detalle": "La prueba de zooglea usa agua destilada.",
+      "accion": "Consultar una versión practicable en el campo."
+    },
+    {
+      "tipo": "Fotos",
+      "donde": "Todas las fichas",
+      "detalle": "En la enfermedad revisada (tizón temprano) hay unas 6 fotos por ficha, separadas por órgano; no se verificó el resto.",
+      "accion": "Sirven como referencia visual, no alcanzan para entrenar un clasificador de imágenes."
+    },
+    {
+      "tipo": "Páginas",
+      "donde": "Referencias de página",
+      "detalle": "La columna 'Pág. guía' usa la numeración impresa del índice; el PDF tiene 130 páginas y su índice interno no coincide (p. ej. la impresa 131 es la 124 del PDF).",
+      "accion": "Usar la numeración impresa al citar."
+    }
+  ]
+}
